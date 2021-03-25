@@ -1,0 +1,32 @@
+{
+  "name": "jsau-apiserver",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:ci": "echo 'Bonjour'",
+    "pretest:ci": "npm run lint",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "RAKOTOMAMONJY Andriatsiiavonana Sitraka Mbolatiana",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "7.12.1",
+    "eslint-config-usecases": "3.0.0",
+    "jest": "26.6.1"
+  },
+  "dependencies": {
+    "babel-eslint": "10.1.0",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "morgan": "1.10.0",
+    "nodemon": "2.0.7"
+  },
+  "description": ""
+}
